@@ -30,7 +30,7 @@ Before using or developing this application, take a moment to [obtain an AlphaVa
 
 After obtaining an API Key, copy the ".env.example" file to a new file called ".env", and update the contents of the ".env" file to specify your real API Key.
 
-Don't worry, the ".env" has already been [ignored](/.gitignore)) from version control for you!
+Don't worry, the ".env" has already been [ignored](/.gitignore) from version control for you!
 
 ## Usage
 
