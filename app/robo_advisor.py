@@ -7,7 +7,7 @@ load_dotenv() # loads environment variables set in a ".env" file, including the 
 
 # see: https://www.alphavantage.co/support/#api-key
 api_key = os.environ.get("ALPHAVANTAGE_API_KEY")
-print("API KEY: " + api_key) # TODO: remove or comment-out this line after you have verified the environment variable is getting read properly
+#print("API KEY: " + api_key)
 
 symbol = "NFLX" # TODO: capture user input, like... input("Please specify a stock symbol: ")
 
@@ -34,8 +34,8 @@ print("RUN AT: 11:52pm on June 5th, 2018")
 print("-----------------")
 print("LATEST DAY OF AVAILABLE DATA: June 4th, 2018")
 print(f"LATEST DAILY CLOSING PRICE: {latest_price_usd}")
-print("RECENT AVERAGE HIGH CLOSING PRICE: $101,000.00")
-print("RECENT AVERAGE LOW CLOSING PRICE: $99,000.00")
+print("RECENT HIGH: $101,000.00")
+print("RECENT LOW: $99,000.00")
 print("-----------------")
 print("RECOMMENDATION: Buy!")
 print("RECOMMENDATION REASON: Because the latest closing price is within threshold XYZ etc., etc. and this fits within your risk tolerance etc., etc.")
